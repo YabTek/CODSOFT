@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Landing page</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <header>
-      <div id="header">
-        <h1>Basic Calculator App</h1>
-      </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME PAGE</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="responsive/homresponse.css">
 
-    <main>
-      <div id="main">
-        <form>
-          <div class = "answer">
-            <input style = "width: 90%; margin: 17px; outline: none;" type = "text" name = "show"/>
+    </head>
+    <body>
+        <div id="whole">  
+            <header>
+                <div id="header">
+                      <div class="hello">
+                          <h1>HELLO!!</h1>
+                          <img src="image/lu.jpg" />
+                      </div>
+                      <nav>
+                       <a href="index.html">HOME</a>
+                       <a href="html/about.html">ABOUT</a>
+                       <a href="html/contact.html">CONTACT</a>
+                       <a href="html/.project.html">PROJECTS</a>
+                       <a href="html/experience.html">CERTIFICATES</a>
+                       </nav>
+                    </div>
+                   </header>   
+                  
+            <main>
+                <div id="main">
+               <article id="port">
+                   <div class="main_h1"><h1>HELLO EVERYONE,THIS IS MY PORTFOLIO.</h1></div><br><br>
+               </article>
+            </aside>
+            </div>
+        </main>
+                
+        <footer>
+            <div id="footer">
+                <div class="github">
+                    <h3><a href="https://github.com/YabTek">Github-Account</a></h3>
+                </div>
+                <h3><a href = "https://drive.google.com/file/d/1z76spkUFdYgYJV6uevDBieYabCv1DZOx/view?usp=sharing">
+                    Resume</a></h3>
+           <div class="lol">
+           <p>&copy 2023 Yeabsira Tekuamwork</p>
           </div>
-          <div class = "row1">
-            <input type = "button" value = "AC" onclick = "show.value = '' "/>
-            <input type = "button" value = "DE" onclick = "show.value = show.value.toString().slice(0,-1) "/>
-            <input type = "button" value = "%" onclick = "show.value += '%' "/>
-            <input type = "button" value = "/" onclick = "show.value += '/' "/>
-          </div>
-          <div class = "row2">
-            <input type = "button" value = "7" onclick = "show.value += '7' "/>
-            <input type = "button" value = "8" onclick = "show.value += '8' "/>
-            <input type = "button" value = "9" onclick = "show.value += '9' "/>
-            <input type = "button" value = "x" onClick = "show.value += '*' "/>
-          </div>
-          <div class = "row3">
-            <input type = "button" value = "4"  onclick = "show.value += '4' "/>
-            <input type = "button" value = "5"  onclick = "show.value += '5' "/>
-            <input type = "button" value = "6"  onclick = "show.value += '6' "/>
-            <input type = "button" value = "-"  onclick = "show.value += '-' "/>
-          </div>
-          <div>
-            <input type = "button" value = "1"  onclick = "show.value += '1' "/>
-            <input type = "button" value = "2"  onclick = "show.value += '2' "/>
-            <input type = "button" value = "3"  onclick = "show.value += '3' "/>
-            <input type = "button" value = "+"  onclick = "show.value += '+' "/>
-          </div>
-          <div class = "row4">
-            <input type = "button" value = "." onclick = "show.value += '.' "/>
-            <input type = "button" value = "0" onclick = "show.value += '0' "/>
-            <input type = "button" value = "00" onclick = "show.value += '00' "/>
-            <input type = "button" value = "=" onclick = "show.value = eval(show.value) "/>
-          </div>
-        </form>
-        
-      </div>
-    </main>
-  </body>
+        </div>
+    </footer>
+        </div>   
+   </body>
 </html>

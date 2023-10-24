@@ -1,2 +1,2 @@
 # CODSOFT
-This is a basic calculator-------->skills: html,css,javascript
+This is portfolio-------->skills: html,css,responsive website

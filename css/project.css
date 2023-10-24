@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-image: url("../image/exp.jpg");
+
+}
+.hello h1{
+        font-family:serif;
+        font-weight:bolder;
+        font-size:x-large;
+        display:inline;
+        color:honeydew;
+        position:relative;
+        top:-45px;
+        margin-left: 2em;
+    }
+.hello img{
+        height:100px;
+        width:100px;
+        border-radius:50%;
+    }
+nav{
+    
+        margin-bottom: 2%;
+        
+    
+    }
+a{
+        text-decoration:none;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight:bolder;
+        font-size:larger;
+        color:honeydew;
+        margin-right:1em;
+  
+    }
+#header a:hover{
+        color:cyan;
+    }
+    
+.hakim{
+    margin-top: 80px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding:2em;
+}
+.mobile{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.game{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.bela{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.hakim{
+    margin-left:70px;
+    margin-right:70px;
+    padding:2em;
+}
+.redux{
+    margin-left: 70px;
+    margin-right:70px;
+    padding:2em;
+}
+.car{ 
+    margin-left: 70px;
+    margin-right: 70px;
+    padding:2em;
+}
+.port{ 
+    margin-left: 70px;
+    margin-right: 70px;
+    padding:2em;
+    margin-bottom: 100px;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+   font-size:larger;
+   font-weight: 900;
+   color: aliceblue;
+   background-image: url("../image/b3.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+.links {
+   margin-left: 140px;
+   margin-top: 80px;
+   color:rgb(163, 26, 2);
+}
+.links a{
+    color:rgb(2, 13, 167)
+}
+
+#footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 28px;
+    align-items: center;
+    background-image: url(../image/exp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    #footer a:hover{
+        color:rgb(179, 255, 0);
+    }
+#footer p{
+    color: rgba(255, 255, 255, 0.864);
+}
