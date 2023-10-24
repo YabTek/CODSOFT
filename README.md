@@ -1,3 +1,2 @@
 # CODSOFT
-This is a simple landing page----->>
-skills: html,css
+This is a basic calculator-------->skills: html,css,javascript
